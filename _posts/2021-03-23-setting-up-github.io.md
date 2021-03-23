@@ -23,9 +23,10 @@ generally a lot of work for those maybe two blog posts a year.
 
 Well, you could go for a [wordpress.com](https://www.wordpress.com)
 Free account. But it's a lot of clicking and choices and gui stuff and
-you are going to end up with a paid plan quite fast. That's probably
-the same for other mainstream hosted blog sites. So I opted out of
-that whole thing.
+you are going to end up with a paid plan quite fast. Paying $40 for
+mapping in your own domain name is a steep price for a `ServerAlias`
+line in a config somewhere. That's probably the same for other
+mainstream hosted blog sites. So I opted out of that whole thing.
 
 ### Static blog generators
 
