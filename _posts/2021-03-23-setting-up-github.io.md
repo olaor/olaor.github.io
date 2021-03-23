@@ -90,12 +90,11 @@ timezone: Europe/Oslo # Or UTC or whatever
 	 ```
  
  
- 2. Create the file `index.md` where you show a list of posts like my
-    front page does. Note the bits with `{% raw %}{{ post.title }}{%
-    endraw %}` and such,
-    that's called [Liquid template
-    language](https://shopify.github.io/liquid/) and helps you do more
-    fancy stuff than just generate text paragraphs:
+2. Create the file `index.md` where you show a list of posts like my
+   front page does. Note the bits with `{% raw %}{{ post.title }}{%
+   endraw %}` and such, that's called [Liquid template
+   language](https://shopify.github.io/liquid/) and helps you do more
+   fancy stuff than just generate text paragraphs: 
 	
 	 ```markdown
 {% raw %}
@@ -120,18 +119,18 @@ blog is ready for use.
 But that's just the front page. You'd want to make some posts.
 
 1. Create the `_posts` directory.
+   
+   As Github uses Jekyll, you would want to put all your blog posts
+   in the `_posts` folder. Create it in your repo root folder. 
 
-	As Github uses Jekyll, you would want to put all your blog posts
-    in the `_posts` folder. Create it in your repo root folder. 
-
-2.  Create a post
-
-	Create a file named something like
-    `2021-01-01-my-first-post.md`. It's really important to name the
-    file with a date at the beginning or GitHub/Jekyll won't
-    understand it's a post.
-
-	Fill it with some nonsense:
+2. Create a post
+   
+   Create a file named something like
+   `2021-01-01-my-first-post.md`. It's really important to name the
+   file with a date at the beginning or GitHub/Jekyll won't
+   understand it's a post.
+   
+   Fill it with some nonsense:
 
 	 ```markdown
 {% raw %}
