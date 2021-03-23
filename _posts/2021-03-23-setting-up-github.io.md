@@ -91,7 +91,7 @@ timezone: Europe/Oslo # Or UTC or whatever
  
  
  2. Create the file `index.md` where you show a list of posts like my
-    front page does. Note the bits with `{{post.title}}` and such,
+    front page does. Note the bits with `{{raw}}{{post.title}}{{endraw}}` and such,
     that's called [Liquid template
     language](https://shopify.github.io/liquid/) and helps you do more
     fancy stuff than just generate text paragraphs:
