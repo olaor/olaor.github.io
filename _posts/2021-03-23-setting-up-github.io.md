@@ -113,7 +113,7 @@ _Last update: {{ "now" | date: "%Y-%m-%d %H:%M:%S"}}_
 ```
 
 Commit the code in GitHub's text web based text editor or in your
-locally cloned repo and after some seconds or even minutes you new
+locally cloned repo and after some seconds or even minutes your new
 blog is ready for use.
 
 ## Fill your blog with content
