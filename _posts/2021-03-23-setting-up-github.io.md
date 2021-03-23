@@ -80,8 +80,7 @@ You're up and running with `https://yourusername.github.io` then?
 Awesome. You are almost there. 
 
 1. Set up a few defaults for your site
-
- - Create the file `_config.yml` at the root of your repo and fill it
+   Create the file `_config.yml` at the root of your repo and fill it
    with this:
  
    ```yml
