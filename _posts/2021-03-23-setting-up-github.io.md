@@ -15,7 +15,7 @@ write stuff down so you won't forget it...
 I used to host my own [Wordpress](https://wordpress.org) blog. That
 was a major drag. At one point or another there would be a security
 hole and you would need to patch it and fix broken plugins and it's
-generallÿ́a lot of work for those maybe two blog posts a year.
+generally a lot of work for those maybe two blog posts a year.
 
 ## What to do?
 
