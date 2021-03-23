@@ -17,3 +17,4 @@ Some of it may be relevant, most is not.
 
 
 _Last update: {{ "now" | date: "%Y-%m-%d %H:%M:%S"}} Europe/Oslo_
+

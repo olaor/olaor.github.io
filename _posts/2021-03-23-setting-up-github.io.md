@@ -146,6 +146,6 @@ Lorem ipsut!
 {{endraw}}
 ```
  
-	Then commit and push that file, and hey presto, you have a blog!
+Then commit and push that file, and hey presto, you have a blog!
  
  
