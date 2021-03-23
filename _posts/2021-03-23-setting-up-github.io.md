@@ -97,7 +97,7 @@ timezone: Europe/Oslo # Or UTC or whatever
     language](https://shopify.github.io/liquid/) and helps you do more
     fancy stuff than just generate text paragraphs:
 	
-```markdown
+	 ```markdown
 {% raw %}
 ## This is my blog
 
@@ -109,7 +109,7 @@ It has posts.
 
 _Last update: {{ "now" | date: "%Y-%m-%d %H:%M:%S"}}_
 {% endraw %}
-```
+	 ```
 
 Commit the code in GitHub's text web based text editor or in your
 locally cloned repo and after some seconds or even minutes your new
@@ -133,7 +133,7 @@ But that's just the front page. You'd want to make some posts.
 
 	Fill it with some nonsense:
 
-```markdown
+	 ```markdown
 {% raw %}
 ---
 tags: "first post" 
@@ -145,7 +145,7 @@ author: "Beavis Butthead"
 
 Lorem ipsut!
 {% endraw %}
-```
+	 ```
  
 Then commit and push that file, and hey presto (well, after waiting ut
 to a minute for it to render...), you have a blog!
