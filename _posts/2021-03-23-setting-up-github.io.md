@@ -83,11 +83,11 @@ Awesome. You are almost there.
    Create the file `_config.yml` at the root of your repo and fill it
    with this:
  
-```yml
+	 ```yml
 theme: jekyll-theme-hacker
 title: Your blog name goes here
 timezone: Europe/Oslo # Or UTC or whatever
-```
+	 ```
  
  
  2. Create the file `index.md` where you show a list of posts like my
