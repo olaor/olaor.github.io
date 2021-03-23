@@ -1,0 +1,5 @@
+theme: jekyll-theme-hacker
+paginate: 2
+title: What to do or have done
+excerpt_separator: (more)
+timezone: Europe/Oslo
