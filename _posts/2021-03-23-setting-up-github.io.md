@@ -97,7 +97,7 @@ timezone: Europe/Oslo # Or UTC or whatever
     fancy stuff than just generate text paragraphs:
 	
 ```markdown
-{{raw}}
+{% raw %}
 ## This is my blog
 
 It has posts.
@@ -107,7 +107,7 @@ It has posts.
 {% endfor %}
 
 _Last update: {{ "now" | date: "%Y-%m-%d %H:%M:%S"}}_
-{{endraw}}
+{& endraw %}
 ```
 
 Commit the code in GitHub's text web based text editor or in your
