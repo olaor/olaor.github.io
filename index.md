@@ -16,7 +16,7 @@ Some of it may be relevant, most is not.
 {% continue %}
 {% endif %}
 
-### {{ post.date | date: "%Y-%m-%d" }} [{{ post.title }}]({{ post.url }}) by {{ post.author }} 
+### {{ post.date | date: "%Y-%m-%d" }} [{{ post.title }}]({{ post.url }})
 
 {% endfor %}
 
@@ -33,7 +33,7 @@ Lots of these are 1) Crap. 2) In norwegian. Don't bother.
 {% continue %}
 {% endif %}
 
-### {{ post.date | date: "%Y-%m-%d" }} [{{ post.title }}]({{ post.url }}) by {{ post.author }} 
+### {{ post.date | date: "%Y-%m-%d" }} [{{ post.title }}]({{ post.url }})
 
 {% endfor %}
 
