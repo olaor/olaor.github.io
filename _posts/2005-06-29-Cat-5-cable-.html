@@ -1,0 +1,292 @@
+---
+author: oo
+title: Cat5 cable patching
+---
+
+<style type="text/css"><!--
+      table.cable {
+      padding: 0px;
+      margin: 0px;
+      border-collapse:	collapse; 
+/*      border-collapse: separate ; */
+/*    border-spacing: 5px ; */
+      border: 1px solid black;
+      }
+      th.cable {
+      width: 100px;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      padding: 0px;
+      margin: 0px;
+
+      }
+      td.cable {
+      width: 100px;
+      text-align: center;
+      border: 1px solid black;
+      padding: 0px;
+      margin: 0px;
+
+      }
+
+      /* Colors */
+      td.orange {
+      background-color: #CC6600;
+      width: 100px;
+      border: 1px solid black;
+      padding: 0px;
+      margin: 0px;
+
+      }
+      td.green {
+      background-color: green;
+      width: 100px;
+      border: 1px solid black;
+      padding: 0px;
+      margin: 0px;
+
+      }
+      td.blue {
+      background-color: blue;
+      width: 100px;
+      border: 1px solid black;
+      padding: 0px;
+      margin: 0px;
+
+      }
+      td.brown {
+      background-color: brown;
+      width: 100px;
+      border: 1px solid black;
+      padding: 0px;
+      margin: 0px;
+      }
+
+      /* Colgate */
+      div.white {
+      position: relative;
+      top: 0;
+      left: 50;
+      width: 50%;
+      background-color: white;
+      }
+
+--></style>
+ 
+    <h2>RJ45 alignment</h2>
+    
+    <p>
+      To utilize these color codes correctly you should hold your RJ45 connector
+      with the locking thingy <u>away</u> from yourself, and with the little
+      metal contacts facing <u>towards</u> you.
+    </p>
+
+
+    <h3>Pairs</h3>
+
+    <p>
+      Most CAT5 cable comes with 4 pairs (otherwise, would it be a CAT5
+      cable?). On the standard, el-cheapo CAT5 from <a href="http://biltema.se">Biltema</a> those pairs have certain color
+      codes. I use them as an example here.
+    </p>
+ <!--more-->   
+    <table class="cable" width="202px">
+	<tr>
+	  <th class="cable">Pair number</th>
+	  <th class="cable" colspan="2">Color</th>
+	</tr>
+	<tr>
+	  <td class="cable" rowspan="2">1</td>
+	  <td class="orange">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="orange">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable" rowspan="2">2</td>
+	  <td class="green">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="green">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable" rowspan="2">3</td>
+	  <td class="blue">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="blue">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable" rowspan="2">4</td>
+	  <td class="brown">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="brown">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+    </table>
+
+    <h3>PC to hub Cable</h3>
+
+    <p>
+      This is the most common cable, often referred to as a "patch cable". One
+      end goes into your RJ45 compatible network interface, and the other one
+      fits smugly into your switch, HUB, broadband router or your least
+      favourite pets ass^H^H^H favourite toy.
+    </p>
+
+    <table class="cable" width="202px">
+	<tr>
+	  <th class="cable" >Pin number</th>
+	  <th class="cable" colspan="2">Color</th>
+	</tr>
+	<tr>
+	  <td class="cable">1</td>
+	  <td class="orange">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">2</td>
+	  <td class="orange">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable">3</td>
+	  <td class="green">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">4</td>
+	  <td class="blue">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">5</td>
+	  <td class="blue">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable">6</td>
+	  <td class="green">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable">7</td>
+	  <td class="brown">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">8</td>
+	  <td class="brown">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+    </table>
+
+
+    <h3>Two computers over one CAT5?</h3>
+
+    <p>
+      Yes, this is indeed possible. Just remember that the plug utilizing pairs
+      <b>3</b> and <b>4</b> should be plugged into the computer which transfers
+      the least data of the two.
+    </p>
+
+    <p>
+      This setup is most commonly used between a hub and a dual connector walljack.
+    </p>
+
+    <table class="cable" width="304px">
+	<tr>
+	  <th class="cable">Plug/walljack number</th>
+	  <th class="cable" >Pin number</th>
+	  <th class="cable" colspan="2">Color</th>
+	</tr>
+	<tr>
+	  <td class="cable" rowspan="8">1</td>
+	  <td class="cable">1</td>
+	  <td class="orange">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">2</td>
+	  <td class="orange">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable">3</td>
+	  <td class="green">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">4</td>
+	  <td class="cable">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">5</td>
+	  <td class="cable">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">6</td>
+	  <td class="green">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable">7</td>
+	  <td class="cable">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">8</td>
+	  <td class="cable">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable" rowspan="8">2</td>
+	  <td class="cable">1</td>
+	  <td class="blue">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">2</td>
+	  <td class="blue">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable">3</td>
+	  <td class="brown">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">4</td>
+	  <td class="cable">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">5</td>
+	  <td class="cable">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">6</td>
+	  <td class="brown">
+	    <div class="white">&nbsp;</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="cable">7</td>
+	  <td class="cable">&nbsp;</td>
+	</tr>
+	<tr>
+	  <td class="cable">8</td>
+	  <td class="cable">&nbsp;</td>
+	</tr>
+
+    </table>
+
+
+
+  
+
+
