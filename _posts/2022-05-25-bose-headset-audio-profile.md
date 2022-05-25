@@ -14,7 +14,7 @@ it up as a keyboard shortcut in your window manager or something.
 
 Download it [here](/scripts/bose) or cut and paste:
 
-```
+```bash
 
 #!/bin/bash
 
